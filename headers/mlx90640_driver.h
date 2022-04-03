@@ -50,6 +50,9 @@
 class MyWidget : public QWidget
 {
     Q_OBJECT
+
+public:
+    virtual void hasValue(void){};
 };
 
 class MLX90640 {
