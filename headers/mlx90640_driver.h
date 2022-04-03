@@ -19,7 +19,6 @@
 #define _mlx90640_driver_H_
 
 #include <stdint.h>
-#include "mlx90640_driver.h"
 #include <math.h>
 #include <stdio.h>
 #include <chrono>
