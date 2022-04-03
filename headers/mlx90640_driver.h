@@ -29,8 +29,6 @@
 #include <fcntl.h>
 #include <string.h>
 #include <linux/i2c-dev.h>
-#include "testpic.h"
-#include "mywidget.h"
 
 #define SCALEALPHA 0.000001
 #define I2C_MSG_FMT char
@@ -41,6 +39,18 @@
 #endif
 
 #include <sys/ioctl.h>
+
+#include <QtGui>
+#include <QWidget>
+#include <QPushButton>
+#include <QBoxLayout>
+#include <qwt/qwt_plot.h>
+#include <qwt/qwt_thermo.h>
+ 
+class MyWidget : public QWidget
+{
+    Q_OBJECT
+};
 
 class MLX90640 {
 
