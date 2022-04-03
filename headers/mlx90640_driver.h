@@ -40,20 +40,6 @@
 
 #include <sys/ioctl.h>
 
-#include <QtGui>
-#include <QWidget>
-#include <QPushButton>
-#include <QBoxLayout>
-#include <qwt/qwt_plot.h>
-#include <qwt/qwt_thermo.h>
- 
-class MyWidget : public QWidget
-{
-    Q_OBJECT
-
-public:
-    virtual void hasValue(void);
-};
 
 class MLX90640 {
 
