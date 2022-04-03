@@ -9,14 +9,8 @@ sudo apt-get install libi2c-dev
 ```
 
 ## How do use:
-```
-cd mymlx90640
-mkdir build && cd build
-cmake ..
-make
-../sensor
-```
-This method is based on console output, if you want to use the Qt output, please go to rep [Smart-Light-Bulb-Control-with-Gesture](https://github.com/Maripoforest/Smart-Light-Bulb-Control-with-Gesture.git) and follow the instructions there.
+This is a wrapped lib for MLX90640 with QT widget, see usage in:
+[Smart-Light-Bulb-Control-with-Gesture](https://github.com/Maripoforest/Smart-Light-Bulb-Control-with-Gesture.git) and follow the instructions there.
 
 ## Update
 2022.3.14 Update, compatible for RPI Model 4B.
