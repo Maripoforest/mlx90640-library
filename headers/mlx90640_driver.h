@@ -29,6 +29,8 @@
 #include <fcntl.h>
 #include <string.h>
 #include <linux/i2c-dev.h>
+#include "mlx90640_driver.h"
+#include "mywidget.h"
 
 #define SCALEALPHA 0.000001
 #define I2C_MSG_FMT char
